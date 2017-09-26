@@ -68,15 +68,18 @@ h4 {
 }
 app-root {
   display: block;
+  color: #fff;
 }
 app-root > div {
   display: flex;
-  justify-content: center;
+  height: calc(100vh - 50px);
 }
-
+app-root div {
+  font-size: 2.5rem;
+}
 songs-playlist,
 songs-favourites,
-songs-listened {
+songs-listed {
   flex: 0 0 33%;
   margin: 0 10px;
 }

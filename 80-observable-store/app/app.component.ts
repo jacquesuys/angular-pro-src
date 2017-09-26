@@ -6,9 +6,9 @@ import { Store } from './store';
   selector: 'app-root',
   template: `
     <div>
-      <div *ngFor="let todo of todos$ | async">
-        {{ todo.name }}
-      </div>
+      <songs-playlist></songs-playlist>
+      <songs-listed></songs-listed>
+      <songs-favourites></songs-favourites>
     </div>
   `
 })

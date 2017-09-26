@@ -32,6 +32,7 @@ export class AppComponent {
 
   rememberUser(remember: boolean) {
     this.rememberMe = remember;
+    console.log(this.rememberMe)
   }
 
   createUser(user: User) {
